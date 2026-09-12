@@ -12,7 +12,7 @@ from generation import generate_answer
 
 st.set_page_config(
     page_title="Financial Report Intelligence Assistant",
-    page_icon="📊",
+    page_icon="*",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
@@ -107,7 +107,7 @@ st.markdown(
 # =========================================================
 
 st.markdown(
-    '<div class="main-title">📊 Financial Report Intelligence Assistant</div>',
+    '<div class="main-title">Financial Report Intelligence Assistant</div>',
     unsafe_allow_html=True,
 )
 
@@ -138,7 +138,7 @@ question = st.text_input(
 # Example questions
 # =========================================================
 
-with st.expander("💡 Example questions"):
+with st.expander("Example questions"):
 
     example_questions = [
         "What was Microsoft's revenue in fiscal year 2025?",
@@ -237,7 +237,7 @@ if question.strip():
     # Answer section
     # =========================================================
 
-    st.subheader("💬 Answer")
+    st.subheader("Answer")
 
     st.markdown(
         f"""
@@ -284,7 +284,7 @@ if question.strip():
         <div class="source-card">
 
         <div class="source-title">
-        📄 Primary source
+        Primary source
         </div>
 
         <div>
@@ -311,7 +311,7 @@ if question.strip():
 
     st.divider()
 
-    st.subheader("📚 Supporting Evidence")
+    st.subheader("Supporting Evidence")
 
     st.markdown(
         """
@@ -375,7 +375,7 @@ if question.strip():
 
             # Source
             st.markdown(
-                f"**📄 Source:** {source}"
+                f"**Source:** {source}"
             )
 
             # Page information
@@ -417,7 +417,7 @@ if question.strip():
 
     st.divider()
 
-    with st.expander("⚙️ How this answer was generated"):
+    with st.expander("How this answer was generated"):
 
         st.markdown(
             """
