@@ -1,0 +1,141 @@
+[
+    {
+        "id": "q01",
+        "question": "What was Microsoft's total revenue in fiscal year 2025?",
+        "type": "direct_fact",
+        "expected_chunks": [
+            "msft_2025_pdf36_chunk1",
+            "msft_2025_pdf24_chunk3",
+            "msft_2025_pdf72_chunk1"
+        ],
+        "should_find_document_evidence": true
+    },
+    {
+        "id": "q02",
+        "question": "What was Microsoft's operating income in fiscal year 2025?",
+        "type": "financial_figure",
+        "expected_chunks": [
+            "msft_2025_pdf36_chunk1",
+            "msft_2025_pdf24_chunk3"
+        ],
+        "should_find_document_evidence": true
+    },
+    {
+        "id": "q03",
+        "question": "How much did Microsoft spend on research and development in fiscal year 2025?",
+        "type": "financial_figure",
+        "expected_chunks": [
+            "msft_2025_pdf27_chunk1"
+        ],
+        "should_find_document_evidence": true
+    },
+    {
+        "id": "q04",
+        "question": "How much revenue did Microsoft Cloud generate in fiscal year 2025?",
+        "type": "financial_figure",
+        "expected_chunks": [
+            "msft_2025_pdf72_chunk2",
+            "msft_2025_pdf21_chunk2"
+        ],
+        "should_find_document_evidence": true
+    },
+    {
+        "id": "q05",
+        "question": "What was Microsoft's revenue growth from fiscal year 2024 to fiscal year 2025?",
+        "type": "comparison",
+        "expected_chunks": [
+            "msft_2025_pdf24_chunk3",
+            "msft_2025_pdf25_chunk3"
+        ],
+        "should_find_document_evidence": true
+    },
+    {
+        "id": "q06",
+        "question": "Which Microsoft segment had the highest revenue in fiscal year 2025?",
+        "type": "segment_comparison",
+        "expected_chunks": [
+            "msft_2025_pdf25_chunk3",
+            "msft_2025_pdf26_chunk1",
+            "msft_2025_pdf26_chunk2"
+        ],
+        "should_find_document_evidence": true
+    },
+    {
+        "id": "q07",
+        "question": "What were Microsoft's total revenues from server products and cloud services in fiscal year 2025?",
+        "type": "table_lookup",
+        "expected_chunks": [
+            "msft_2025_pdf72_chunk1"
+        ],
+        "should_find_document_evidence": true
+    },
+    {
+        "id": "q08",
+        "question": "How much revenue did Microsoft generate from Gaming in fiscal year 2025?",
+        "type": "table_lookup",
+        "expected_chunks": [
+            "msft_2025_pdf72_chunk1"
+        ],
+        "should_find_document_evidence": true
+    },
+    {
+    "id": "q09",
+    "question": "What were Microsoft's total assets as of June 30, 2025?",
+    "type": "financial_figure",
+    "expected_chunks": [
+        "msft_2025_pdf38_chunk1"
+    ],
+    "should_find_document_evidence": true
+    },
+
+    {
+        "id": "q10",
+        "question": "What was Microsoft's net cash from operations in fiscal year 2025?",
+        "type": "cash_flow",
+        "expected_chunks": [
+            "msft_2025_pdf39_chunk1"
+        ],
+        "should_find_document_evidence": true
+    },
+    {
+        "id": "q11",
+        "question": "What was Microsoft's diluted earnings per share in fiscal year 2025?",
+        "type": "financial_figure",
+        "expected_chunks": [
+            "msft_2025_pdf36_chunk1",
+            "msft_2025_pdf24_chunk3"
+        ],
+        "should_find_document_evidence": true
+    },
+    {
+        "id": "q12",
+        "question": "What were Microsoft's total revenues in fiscal years 2025, 2024, and 2023?",
+        "type": "multi_year_table",
+        "expected_chunks": [
+            "msft_2025_pdf72_chunk1",
+            "msft_2025_pdf36_chunk1"
+        ],
+        "should_find_document_evidence": true
+    },
+    {
+        "id": "q13",
+        "question": "Who is the current CEO of Apple?",
+        "type": "out_of_document",
+        "expected_chunks": [],
+        "should_find_document_evidence": false
+    },
+    {
+        "id": "q14",
+        "question": "What is Apple's current market capitalization?",
+        "type": "out_of_document",
+        "expected_chunks": [],
+        "should_find_document_evidence": false
+    },
+    {
+        "id": "q15",
+        "question": "What is Microsoft's current stock price today?",
+        "type": "out_of_document",
+        "expected_chunks": [],
+        "should_find_document_evidence": false
+    }
+]
